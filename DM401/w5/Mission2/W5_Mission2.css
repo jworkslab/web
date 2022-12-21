@@ -1,0 +1,83 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size:64px;
+}
+
+h2 {
+    text-align: center;
+    font-size:32px;
+}
+
+.menu1 {
+    text-align: center;
+}
+
+.menu2 {
+    text-align: center;
+}
+
+.menu-content1 {
+    display:inline-block;
+    border:1px solid blue;
+    margin:10px;
+    border-radius: 10px;
+}
+
+.menu-text {
+    font-size:24px;
+}
+
+.menu-pic-seoul {
+    width:300px;
+    height:200px;
+    background-size:cover;
+    background-image: url("https://t1.daumcdn.net/cfile/tistory/995BAA3359F6D2A20B");
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.align a {
+    text-decoration: none;
+    color:blue;
+    
+}
+
+.menu-pic-japan {
+    width:300px;
+    height:200px;
+    background-size:cover;
+    background-image: url("https://img.travel.rakuten.co.jp/m17n/comtw/campaign/arima-onsen/201410/img/topic-2/4.jpg");
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menu-content2 {
+    display:inline-block;
+    border: 1px solid blue;
+    margin:10px;
+    border-radius: 10px;
+}
+
+.menu-pic-china {
+    width:300px;
+    height:200px;
+    background-size:cover;
+    background-image:url("http://tourimage.interpark.com/product/tour/07838/J50/500/J5010144_1_020.jpg");
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menu-pic-russia {
+    width:300px;
+    height:200px;
+    background-size:cover;
+    background-image:url("https://s2.best-wallpaper.net/wallpaper/3840x2160/1707/Russia-Moscow-Palace-cathedral-bridge-lights_3840x2160.jpg");
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

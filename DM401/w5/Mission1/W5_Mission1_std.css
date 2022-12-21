@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.music-header {
+  position: relative;
+  height: 100vh;  /* 반응형 높이 너비 설정: vw, vh */
+  
+  /* 여기에 입력하세요. */
+  background-image: url("./musicfestival.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* 세로 가운데 정렬을 위한 코드 */
+.music-header::before {
+  display: inline-block;
+  content: "";
+  height: 100%;
+  vertical-align: middle;
+}
+
+#navbar {
+  padding: 10px 20px;
+  position: absolute;
+  top: 0;
+}
+
+#logo {
+  color: yellow;
+  font-size: 28px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.info {
+  color: yellow;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin-left: -5px;
+}
+
+.info h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.info h2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.music-more {
+  /* 여기에 입력하세요. */
+   padding: 8px 40px;
+   border: 2px solid yellow;
+   color: yellow;
+   text-decoration: none; /* 링크 밑줄 없애기 */
+}
+

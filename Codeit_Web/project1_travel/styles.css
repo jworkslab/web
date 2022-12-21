@@ -1,0 +1,34 @@
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 165px;
+    height: 58px;
+    margin-top: 80px;
+  }
+  
+  .menu {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  .menu a {
+    font-size: 16px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    color: #58595B;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .select {
+    font-weight: bold;
+  }
+  
+  .photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

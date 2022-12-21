@@ -1,0 +1,106 @@
+body {
+    background-image : url("background.jpg");
+    background-size : cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    position:relative;
+}
+
+.logo {
+    text-align: center;
+    color: slategrey;
+    font-size: 40px;
+    font-weight: bold;
+    margin:30px;
+}
+
+.main-content {
+    position:relative;
+    width: 800px;
+    height: 500px;
+    background-color: rgba(255,255,255,0.7);
+    margin:auto;
+    border-radius: 15px;
+}
+
+.main-left-content {
+    position: absolute;
+    left: 0;
+    width: 400px;
+    height: 500px;
+    overflow: scroll;
+}
+
+.main-right-content {
+    position: absolute;
+    margin-top: 20px;
+    width: 400px;
+    height: 500px;
+    right: 0;
+    text-align: center;
+}
+
+.main-left.site {
+    background-color:;
+    width:;
+    border-radius:;
+    margin-left:;
+    padding:;
+    text-align:;
+}
+
+.left-content-area {
+    background-color: rgba(255, 166, 0, 0.2);
+    border-radius: 15px;
+}
+
+#site1 {
+    background-color: lightsalmon;
+}
+
+#site2 {
+    background-color: lightskyblue;
+}
+
+#site3 {
+    background-color: lightslategrey;
+}
+
+.main-right-content a {
+    text-decoration: none;
+}
+
+.site-mv {
+    background-color: rgba(241, 128, 9, 0.7);
+    width: 280px;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    font-size:15px;
+    text-align: center;
+    margin: 10 auto;
+}
+
+.site-mv:hover {
+    background-color: rgba(241, 128, 9, 0.9);
+}
+
+iframe {
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.music-icon {
+    position:absolute;
+    right:115;
+    bottom:15;
+}
+
+.icon {
+    border-radius: 15px;
+}

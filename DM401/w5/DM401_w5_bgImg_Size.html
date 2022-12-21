@@ -1,0 +1,56 @@
+<!-- #size -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DM401 w5</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="C:\WEB\DM401\w5\DM401_w5_Style.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+</head>
+
+<style>
+    .size {
+        width: 350px;
+        height: 300px;
+        border: 2px solid blue;
+        background-image: url("./img/backgroundSize_HTML5.png");
+        margin: 30px;
+        background-repeat: no-repeat;
+    }
+
+    .size1 {
+        /* 원래 이미지 사이즈 출력 */
+        background-size: auto;
+    }
+    .size2 {
+        /* 화면을 꽉 채우면서 이미지 비율 유지 */ 
+        /* 비율에 따라 이미지가 잘릴 수도 있음 */
+        background-size: cover;
+    }
+    .size3 {
+        /* 가로, 세로 중 먼저 채워지는 쪽에 맞추어서 출력 */
+        /* 이미지가 잘리지 않고 최적화 됨 */
+        background-size: contain;
+    }
+    .size4 {
+        /* 픽셀값 지정 */
+        background-size: 200px 200px;
+    }
+    .size5 {
+        /* 퍼센트값 지정 */
+        background-size: 20% 20%;
+    }
+</style>
+
+<div class="menu">
+    <a href="./DM401_w5_bgImg.html">MAIN</a>
+    <a href="./DM401_w5_bgImg_Repeat.html">Repeat</a>
+    <a href="./DM401_w5_bgImg_Size.html">Size</a>
+    <a href="./DM401_w5_bgImg_Position.html">position</a>
+</div>
+
+<div class="size size1"></div>
+<div class="size size2"></div>
+<div class="size size3"></div>
+<div class="size size4"></div>
+<div class="size size5"></div>

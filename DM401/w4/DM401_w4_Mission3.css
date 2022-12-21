@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    background-color: purple;
+}
+
+.login-form {
+    width: 300px;
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-form input {
+    border: none;
+    border-radius: 10px;
+}
+
+.text-field {
+    width: 260px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: lightsteelblue;
+}
+
+.submit-btn {
+    width: 260px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: purple;
+    border-radius: 10px;
+    color: white;
+}
+
+.links a {
+    font-size: 9px;
+    color: gray;
+}
